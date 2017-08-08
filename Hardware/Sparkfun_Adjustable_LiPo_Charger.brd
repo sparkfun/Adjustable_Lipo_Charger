@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -46,15 +46,15 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -169,10 +169,10 @@
 <text x="12.573" y="6.223" size="1.016" layer="21" font="vector" ratio="15" align="top-center">Charge Rate
 Select (mA)</text>
 <text x="17.78" y="-20.32" size="1.778" layer="51" font="vector" ratio="15">Alex Wende</text>
-<text x="6.731" y="34.544" size="0.889" layer="21" font="vector" ratio="15">I_set</text>
-<text x="1.27" y="35.306" size="0.889" layer="21" font="vector" ratio="15">R_PTH=</text>
-<text x="6.731" y="36.195" size="0.889" layer="21" font="vector" ratio="15">1000</text>
-<wire x1="6.35" y1="35.814" x2="10.287" y2="35.814" width="0.2032" layer="21"/>
+<text x="9.271" y="34.544" size="0.889" layer="21" font="vector" ratio="15">I_set(mA)</text>
+<text x="1.27" y="35.306" size="0.889" layer="21" font="vector" ratio="15">R_PTH(kΩ)=</text>
+<text x="10.541" y="36.195" size="0.889" layer="21" font="vector" ratio="15">1000</text>
+<wire x1="8.89" y1="35.814" x2="15.367" y2="35.814" width="0.2032" layer="21"/>
 <text x="28.829" y="33.02" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">+</text>
 <text x="28.702" y="35.56" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">-</text>
 <text x="23.495" y="26.162" size="1.27" layer="21" font="vector" ratio="15" align="center">Adjustable
@@ -185,13 +185,20 @@ LiPo Charger</text>
 <text x="0.635" y="11.684" size="0.889" layer="21" font="vector" ratio="15">GND</text>
 <text x="3.302" y="7.112" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">+</text>
 <text x="3.302" y="9.652" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">-</text>
-<text x="31.115" y="0.635" size="1.016" layer="16" font="vector" ratio="20" rot="MR0">v01</text>
+<text x="31.115" y="0.635" size="1.016" layer="16" font="vector" ratio="20" rot="MR0">v10</text>
 <dimension x1="0" y1="0" x2="0" y2="38.1" x3="-5.08" y3="19.05" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="31.75" y2="0" x3="15.875" y3="-5.08" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <text x="7.62" y="-7.62" size="1.016" layer="47" font="vector" ratio="15">Units are in inches</text>
 <text x="13.335" y="29.337" size="0.8128" layer="21" font="vector" ratio="15">STAT</text>
 <text x="17.526" y="29.337" size="0.8128" layer="21" font="vector" ratio="15">PWR</text>
 <text x="26.67" y="36.322" size="1.016" layer="21" font="vector" ratio="15" rot="R270">BATT</text>
+<text x="8.509" y="1.905" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center-left">OFF</text>
+<text x="17.145" y="1.905" size="1.016" layer="21" font="vector" ratio="15" align="center-left">ON</text>
+<wire x1="8.89" y1="1.905" x2="16.51" y2="1.905" width="0.254" layer="21"/>
+<wire x1="16.51" y1="1.905" x2="15.875" y2="2.54" width="0.254" layer="21"/>
+<wire x1="16.51" y1="1.905" x2="15.875" y2="1.27" width="0.254" layer="21"/>
+<wire x1="8.89" y1="1.905" x2="9.525" y2="1.27" width="0.254" layer="21"/>
+<wire x1="8.89" y1="1.905" x2="9.525" y2="2.54" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Batteries">

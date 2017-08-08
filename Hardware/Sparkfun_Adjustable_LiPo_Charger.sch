@@ -11026,12 +11026,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="147.32" y1="109.22" x2="0" y2="109.22" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="147.32" y1="35.56" x2="0" y2="35.56" width="0.2032" layer="97" style="shortdash"/>
 <text x="171.958" y="11.43" size="2.54" layer="94">Alex Wende</text>
-<text x="239.268" y="6.858" size="2.54" layer="94">v01</text>
+<text x="239.268" y="6.858" size="2.54" layer="94">v10</text>
 <text x="2.54" y="180.34" size="2.54" layer="97">Connectors</text>
 <text x="2.54" y="104.14" size="2.54" layer="97">Charge Rate Select</text>
-<text x="104.14" y="78.74" size="1.27" layer="97" align="bottom-center">Resistor
+<text x="104.14" y="78.74" size="1.143" layer="97" align="bottom-center">Resistor
 (kΩ)</text>
-<text x="114.3" y="78.74" size="1.27" layer="97" align="bottom-center">Charge Rate
+<text x="114.3" y="78.74" size="1.016" layer="97" align="bottom-center">Charge Rate
 (mA)</text>
 <text x="104.14" y="76.2" size="1.27" layer="97" align="bottom-center">2.0</text>
 <text x="104.14" y="73.66" size="1.27" layer="97" align="bottom-center">2.49</text>
@@ -11065,10 +11065,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="99.06" y1="70.612" x2="99.06" y2="68.072" width="0.2032" layer="97"/>
 <wire x1="99.06" y1="68.072" x2="119.634" y2="68.072" width="0.2032" layer="97"/>
 <wire x1="108.458" y1="83.82" x2="108.458" y2="65.278" width="0.2032" layer="97"/>
-<text x="104.14" y="55.88" size="1.27" layer="97" align="bottom-center">I_set =</text>
-<text x="111.252" y="57.404" size="1.27" layer="97" align="bottom-center">1000</text>
-<text x="111.252" y="54.356" size="1.27" layer="97" align="bottom-center">R (kΩ)</text>
-<wire x1="107.95" y1="56.642" x2="114.554" y2="56.642" width="0.2032" layer="97"/>
+<text x="105.664" y="59.69" size="1.27" layer="97" align="bottom-center">I_set (mA)= </text>
+<text x="115.316" y="61.214" size="1.27" layer="97" align="bottom-center">1000</text>
+<text x="115.316" y="58.166" size="1.27" layer="97" align="bottom-center">R (kΩ)</text>
+<wire x1="112.014" y1="60.452" x2="118.618" y2="60.452" width="0.2032" layer="97"/>
 <text x="149.86" y="180.34" size="2.54" layer="97">LiPo Charger</text>
 <wire x1="147.32" y1="109.22" x2="248.92" y2="109.22" width="0.2032" layer="97" style="shortdash"/>
 <text x="10.16" y="119.38" size="2.54" layer="97">VCC: 3.75-6V</text>
