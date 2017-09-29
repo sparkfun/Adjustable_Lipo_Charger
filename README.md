@@ -1,4 +1,4 @@
-Adjustable LiPo Charger
+SparkFun Adjustable LiPo Charger
 ============================================
 
 ![Adjustable LiPo Charger](https://cdn.sparkfun.com/assets/parts/1/2/3/9/1/14380-01.jpg)
@@ -13,7 +13,21 @@ Repository Contents
 * **/Hardware** - All Eagle design files (.brd and .sch)
 * **/Production** - Production panel files
 
+Documentation
+-------------------
+
+* [Adjustable LiPo Charger Hookup Guide ](https://learn.sparkfun.com/tutorials/adjustable-lipo-charger-hookup-guide)
+
 License Information
 -------------------
-The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  
+This product is _**open source**_! 
+
+Please review the LICENSE.md file for license information. 
+
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+
+Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
+
 All other code is open source so please feel free to do anything you want with it; you buy me a beer if you use this and we meet someday ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
